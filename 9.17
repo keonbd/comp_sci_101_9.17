@@ -1,0 +1,13 @@
+''' Type your code here. '''
+l = input()
+l = l.split()
+u = input()
+u = u.split()
+lower = u[0]
+lower = int(lower)
+upper = u[1]
+upper = int(upper)
+for i in l:
+    if int(i) >= lower and int(i) <= upper:
+        print(i, end=' ')
+    
